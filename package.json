@@ -1,0 +1,33 @@
+{
+  "name": "redux-reducer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "files" : "build",
+  "scripts": {
+    "prepublish": "gulp dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanial/redux-reducer.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/nathanial/redux-reducer#readme",
+  "devDependencies": {
+    "gulp": "3.9.0",
+    "gulp-babel": "5.2.0",
+    "gulp-less": "3.0.3",
+    "gulp-preprocess": "^2.0.0",
+    "gulp-sourcemaps": "1.5.2",
+    "gulp-util": "3.0.6",
+    "gulp-watch": "4.3.4",
+    "merge-stream": "^1.0.0"
+  },
+  "dependencies": {
+    "esprima": "2.6.0",
+    "underscore": "1.8.3",
+    "seamless-immutable" : "4.0.2"
+  }
+}
