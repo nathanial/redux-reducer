@@ -23,7 +23,8 @@
     "gulp-sourcemaps": "1.5.2",
     "gulp-util": "3.0.6",
     "gulp-watch": "4.3.4",
-    "merge-stream": "^1.0.0"
+    "merge-stream": "^1.0.0",
+    "require-dir": "0.3.0"
   },
   "dependencies": {
     "esprima": "2.6.0",
